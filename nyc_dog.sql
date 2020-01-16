@@ -1,10 +1,10 @@
 CREATE TABLE nyc_dog (
-BreedName VARCHAR(15) PRIMARY KEY,
-Amount INT
+"BreedName" VARCHAR(50) PRIMARY KEY,
+"Amount" INT
 );
 
 CREATE TABLE dog_rating (
-BreedName VARCHAR(15) PRIMARY KEY,
+"breed" VARCHAR(50) PRIMARY KEY,
 size INT,
 intelligence INT,
 energy INT,
@@ -25,6 +25,6 @@ dog_rating.size dog_rating.intelligence dog_rating.energy dog_rating.exercise_ne
 dog_rating.friendly_kids dog_rating.friendly_strangers 
 FROM nyc_dog
 JOIN dog_rating
-ON nyc_dog.BreedName = dog_rating.BreedName
+ON nyc_dog.BreedName = dog_rating.breed
 
 
