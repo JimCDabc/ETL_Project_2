@@ -21,6 +21,7 @@ SELECT * FROM dog_rating
 
 --joins tables
 SELECT nyc_dog."BreedName", nyc_dog."Amount", 
+-- why the quotes?
 dog_rating.size, dog_rating.intelligence, dog_rating.energy, dog_rating.exercise_needs, dog_rating.friendly_overall, 
 dog_rating.friendly_kids, dog_rating.friendly_strangers 
 FROM nyc_dog
