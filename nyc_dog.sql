@@ -20,8 +20,10 @@ SELECT * FROM nyc_dog
 SELECT * FROM dog_rating
 
 --joins tables
+-- why the quotes? 
+-- quotes are needed here because Postgres is automatically lower casing any attribute not quotes
+-- we defined the nyc_dog schema with CamelCase attribute names.
 SELECT nyc_dog."BreedName", nyc_dog."Amount", 
--- why the quotes?
 dog_rating.size, dog_rating.intelligence, dog_rating.energy, dog_rating.exercise_needs, dog_rating.friendly_overall, 
 dog_rating.friendly_kids, dog_rating.friendly_strangers 
 FROM nyc_dog
