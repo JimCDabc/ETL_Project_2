@@ -1,6 +1,6 @@
-#DABC ETL Project:   Breed Characteristics of NYC Licensed Dogs
-##Scott Barnett, Jim Comas, Eden Hailu
-###ETL Project Report
+# DABC ETL Project:   Breed Characteristics of NYC Licensed Dogs
+## Scott Barnett, Jim Comas, Eden Hailu
+### ETL Project Report
 
 Our ETL project centered around two datasets taken from Kaggle:
  
