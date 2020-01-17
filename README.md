@@ -14,6 +14,7 @@ Github Repository: https://github.com/JimCDabc/ETL_Project_2.git
 
 | File name | Description|
 |---|-------|
+| ETL_Project_Report.pdf | Final project report |
 | dog_rating_ETL.ipynb | Jupyter notebook with extract, transform and load code for the dog rating json data for the Cats and Dog Traits dataset |
 | NYC_Dog_ETL.ipynb | Jupyter notebook with extract, transform and load code for NYC Dog Licensing data |
 | nyc_dog.sql | SQL code to create 2 tables with schema  for dog_ratings and nyc_dog.  SQL code to join the 2 tables for use in any additional analyses |
