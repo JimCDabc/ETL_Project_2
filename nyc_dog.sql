@@ -29,5 +29,5 @@ dog_rating.friendly_kids, dog_rating.friendly_strangers
 FROM nyc_dog
 JOIN dog_rating
 ON nyc_dog."BreedName" = dog_rating.breed
-
+ORDER BY nyc_dog."Amount" DESC
 
